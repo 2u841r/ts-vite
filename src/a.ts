@@ -1,19 +1,19 @@
-interface AnyNonNullishValue  {}
+// interface AnyNonNullishValue  {}
 
-// equivalent to `type AnyNonNullishValue = {}` or `type AnyNonNullishValue = Object`
+// // equivalent to `type AnyNonNullishValue = {}` or `type AnyNonNullishValue = Object`
 
-let value: AnyNonNullishValue;
+// let value: AnyNonNullishValue;
 
-// these are all fine, but might not be expected
-value = 1;
-value = "foo";
-value = () => alert("foo");
-value = {};
-value = []
-value = { foo: "bar" };
+// // these are all fine, but might not be expected
+// value = 1;
+// value = "foo";
+// value = () => alert("foo");
+// value = {};
+// value = []
+// value = { foo: "bar" };
 
-// these are errors
-value = undefined;
-value = null;
-value = NaN;
-value = 0
+// // these are errors
+// value = undefined;
+// value = null;
+// value = NaN;
+// value = 0
