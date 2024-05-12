@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./App.css";
 import Layout from "./components/Layout";
 import Testts from "./components/Testts";
