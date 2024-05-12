@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Layout from "./components/Layout.d";
+import Layout from "./components/Layout";
 import Testts from "./components/Testts";
 
 interface ServerData{
