@@ -41,7 +41,7 @@ function App() {
     <>
       <Layout>
         <Testts text="hellow" age={3} fx={handleSubmit} erre={data}  />
-        <h2>Welcome</h2>
+        <h2>Welcome </h2>
         <div>
           <label htmlFor="start">Start:</label>
           <input
